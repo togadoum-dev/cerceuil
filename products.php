@@ -28,7 +28,7 @@ $conn->close();
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nos produits - Elysian Rest</title>
+    <title>Nos produits - Noubera Togadoum</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
 </head>
@@ -37,12 +37,12 @@ $conn->close();
         <nav class="navbar">
             <div class="logo">
                 <i class="fas fa-dove"></i>
-                <span>Elysian Rest</span>
+                <span>Noubera Togadoum</span>
             </div>
             <ul class="nav-links">
                 <li><a href="index.php">Accueil</a></li>
                 <li><a href="products.php">Produits</a></li>
-                <li><a href="cart.php"><i class="fas fa-shopping-cart"></i> Panier <span id="cart-count">0</span></a></li>
+                <li><a href="orders.php"><i class="fas fa-shopping-cart"></i> Panier <span id="cart-count">0</span></a></li>
                 <?php if(isLoggedIn()): ?>
                     <li><a href="orders.php">Mes commandes</a></li>
                     <li><a href="logout.php">Déconnexion</a></li>

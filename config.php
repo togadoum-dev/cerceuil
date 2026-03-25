@@ -19,9 +19,8 @@ function getConnection() {
         return $conn;
     } catch (Exception $e) {
         die("Erreur de connexion: " . $e->getMessage());
-    }
 }
-
+}
 // Fonctions utilitaires
 function isLoggedIn() {
     return isset($_SESSION['user_id']);
@@ -31,4 +30,5 @@ function redirect($url) {
     header("Location: $url");
     exit();
 }
-?>
+?>.
+

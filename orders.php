@@ -23,7 +23,7 @@ $conn->close();
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mes commandes - Elysian Rest</title>
+    <title>Mes commandes - Noubera Togadoum</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <style>
@@ -139,7 +139,7 @@ $conn->close();
         <nav class="navbar">
             <div class="logo">
                 <i class="fas fa-dove"></i>
-                <span>Elysian Rest</span>
+                <span>Noubera Togadoum</span>
             </div>
             <ul class="nav-links">
                 <li><a href="index.php">Accueil</a></li>
@@ -214,13 +214,13 @@ $conn->close();
     <footer>
         <div class="footer-content">
             <div class="footer-section">
-                <h4>Elysian Rest</h4>
-                <p>Service funéraire depuis 1985</p>
+                <h4>Noubera Togadoum</h4>
+                <p>Service funéraire de 2026</p>
             </div>
             <div class="footer-section">
                 <h4>Contact</h4>
-                <p>Email: contact@elysianrest.com</p>
-                <p>Tél: 01 23 45 67 89</p>
+                <p>Email: togadoumhubert@gmail.com</p>
+                <p>Tél: 0237656606319</p>
             </div>
         </div>
     </footer>
